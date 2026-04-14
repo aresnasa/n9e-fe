@@ -30,7 +30,7 @@
   --fc-fill-7-rgb: 151 156 163;
   --fc-fill-7: rgb(var(--fc-fill-7-rgb));
 
-  --fc-fill-primary-rgb: 108 83 177;
+  --fc-fill-primary-rgb: 11 89 162;
   --fc-fill-primary: rgb(var(--fc-fill-primary-rgb));
 
   --fc-fill-success-rgb: 0 167 0;
@@ -53,9 +53,9 @@
   --fc-text-3: #666666;
   --fc-text-4: #999999;
   --fc-text-5: #d1d1d9;
-  --fc-text-link: #8162dc;
-  --fc-text-link-light: #a186f4; /* 用于 tooltip 里加亮链接颜色 */
-  --fc-text-link-rgb: 129, 98, 220;
+  --fc-text-link: #0b59a2;
+  --fc-text-link-light: #2a72b8; /* 用于 tooltip 里加亮链接颜色 */
+  --fc-text-link-rgb: 11, 89, 162;
   --fc-text-placeholder: #bfbfbf;
 
   /* 其他 */
