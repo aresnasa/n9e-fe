@@ -4,7 +4,7 @@ import { cn } from '@/components/menu/SideMenu/utils';
 import { CommonStateContext } from '@/App';
 import { SIDE_MENU_COLORS, SideMenuColors } from './types';
 
-const THEME_COLOR = 'rgb(108, 83, 177)';
+const THEME_COLOR = '#0b59a2'; // INESA 系统蓝
 export const getSideMenuBgColor = (color: SideMenuColors) => {
   switch (color) {
     case 'light':
