@@ -47,10 +47,10 @@ const SideMenu = (props: SideMenuProps) => {
   const {
     topExtra,
     defaultLogos = {
-      light_menu_big_logo_url: '/image/logo-light-l.png',
-      light_menu_small_logo_url: '/image/logo-light.png',
-      menu_big_logo_url: '/image/logo-l.png',
-      menu_small_logo_url: '/image/logo.png',
+      light_menu_big_logo_url: '/image/inesa-white.svg',
+      light_menu_small_logo_url: '/image/inesa-white.svg',
+      menu_big_logo_url: '/image/inesa-white.svg',
+      menu_small_logo_url: '/image/inesa-white.svg',
     },
     getMenuList = getCurrentMenuList,
     onMenuClick,

@@ -324,9 +324,9 @@ const SideMenu: FC = () => {
     }
   }, [profile?.roles, i18n.language]);
 
-  let imgURL = siteInfo?.menu_big_logo_url || '/image/logo-l.svg';
+  let imgURL = siteInfo?.menu_big_logo_url || '/image/inesa-white.svg';
   if (collapsed === '1') {
-    imgURL = siteInfo?.menu_small_logo_url || '/image/logo.svg';
+    imgURL = siteInfo?.menu_small_logo_url || '/image/inesa-white.svg';
   }
 
   return (

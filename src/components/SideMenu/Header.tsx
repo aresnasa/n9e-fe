@@ -15,14 +15,14 @@ interface Props {
 const getLogoSrc = (collapsed: boolean, sideMenuBgMode: string, defaultLogos: DefaultLogos, siteInfo?: any) => {
   if (!collapsed) {
     if (sideMenuBgMode === 'light') {
-      return siteInfo?.light_menu_big_logo_url || defaultLogos.light_menu_big_logo_url || '/image/logo-light-l.png';
+      return siteInfo?.light_menu_big_logo_url || defaultLogos.light_menu_big_logo_url || '/image/inesa-white.svg';
     }
-    return siteInfo?.menu_big_logo_url || defaultLogos.menu_big_logo_url || '/image/logo-l.png';
+    return siteInfo?.menu_big_logo_url || defaultLogos.menu_big_logo_url || '/image/inesa-white.svg';
   }
   if (sideMenuBgMode === 'light') {
-    return siteInfo?.light_menu_small_logo_url || defaultLogos.light_menu_small_logo_url || '/image/logo-light.png';
+    return siteInfo?.light_menu_small_logo_url || defaultLogos.light_menu_small_logo_url || '/image/inesa-white.svg';
   }
-  return siteInfo?.menu_small_logo_url || defaultLogos.menu_small_logo_url || '/image/logo.png';
+  return siteInfo?.menu_small_logo_url || defaultLogos.menu_small_logo_url || '/image/inesa-white.svg';
 };
 
 export default function SideMenuHeader(props: Props) {
