@@ -3,8 +3,8 @@
 ### 1. 下載並解壓縮的安裝包
 
 ```bash
-wget https://download.flashcat.cloud/categraf_ent-v0.3.94-linux-amd64.tar.gz
-tar zxvf categraf_ent-v0.3.94-linux-amd64.tar.gz
+wget https://download.flashcat.cloud/categraf_ent-v0.3.104-linux-amd64.tar.gz
+tar zxvf categraf_ent-v0.3.104-linux-amd64.tar.gz
 ```
 
 ### 2. 修改 conf/config.toml , 將 providers 改為 [“local”,“http”] ，修改 [http_provider], 設定參考如下

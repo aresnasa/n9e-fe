@@ -3,8 +3,8 @@
 ### 1. Скачайте и распакуйте пакет установки
 
 ```bash
-wget https://download.flashcat.cloud/categraf_ent-v0.3.94-linux-amd64.tar.gz
-tar zxvf categraf_ent-v0.3.94-linux-amd64.tar.gz
+wget https://download.flashcat.cloud/categraf_ent-v0.3.104-linux-amd64.tar.gz
+tar zxvf categraf_ent-v0.3.104-linux-amd64.tar.gz
 ```
 
 ### 2. Измените conf/config.toml, измените провайдеров на ["local","http"], измените [http_provider], пример конфигурации следующий
